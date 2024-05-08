@@ -102,9 +102,11 @@ git push
 
 ---
 # init command
+
 <h4><code>init</code> - used tu creat a new repo <h4>
 
 ```
+..
 mkdir <New File Name>
 cd <The new file name>
 git init
@@ -124,6 +126,7 @@ git status
 ```css
 git push origin main
 ```
+---
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 

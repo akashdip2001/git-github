@@ -163,52 +163,40 @@ git push
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-# Extra
+<img src="source/git-branches-merge.png">
 
-It seems like there's a typo in the command. The correct command is `git branch`, which is used to manage branches in a Git repository.
+# Branch Commands
 
-Here's how you can use the `git branch` command:
+```
+git branch                             ---to check the branch
+git branch -M main                     ---ReName
+git checkout <-branch name->           ---to navigate => one Branch to another
+git checkout -b <- new branch name ->  ---to creat new branch
+git branch -d <- branch name ->        ---to Delete branch
+```
 
-1. **List Branches:**
+Then
 
-   To list all branches in your repository, you can simply run:
-   ```
-   git branch
-   ```
-   This command will display a list of all branches in your repository, with an asterisk (`*`) next to the branch you're currently on.
+```
+git status
 
-2. **Create a New Branch:**
+git add .
+git commint -m "..."
+git status
 
-   To create a new branch, you use the `git branch` command followed by the name of the new branch. For example:
-   ```
-   git branch new-feature
-   ```
-   This command creates a new branch named `new-feature` based on the current branch. However, it doesn't switch to the new branch. To switch to the new branch, you would use `git checkout`.
-
-3. **Switch Branches:**
-
-   To switch to a different branch, you use the `git checkout` command followed by the name of the branch you want to switch to. For example:
-   ```
-   git checkout new-feature
-   ```
-   This command switches to the `new-feature` branch.
-
-4. **Create and Switch to a New Branch:**
-
-   You can combine branch creation and switching into a single command using the `-b` flag with `git checkout`. For example:
-   ```
-   git checkout -b new-feature
-   ```
-   This command creates a new branch named `new-feature` and switches to it in one step.
-
-5. **Delete a Branch:**
-
-   To delete a branch, you use the `-d` flag with `git branch` followed by the name of the branch you want to delete. For example:
-   ```
-   git branch -d new-feature
-   ```
-   This command deletes the `new-feature` branch.
-
-These are some common uses of the `git branch` command for managing branches in your Git repository. Branching is a powerful feature in Git that allows you to work on different features or experiments simultaneously without affecting the main codebase.
+git push otigin <-btanch Name->
+```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+# Merging Code
+
+<h3>Way 1</h3>
+
+```
+git diff <-branch name->   ----to compare commits, branches, files & more
+git merge <-branch name->
+```
+<h3>Way 2</h3>
+
+<h4>Creat a PR <code>Pull Request</code></h4>

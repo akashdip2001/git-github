@@ -126,7 +126,7 @@ git push origin main
 ```
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h1>Creat a repo on Github (Without .Readme) & All file in Local => Upload all files => Github </h1>
+<h1>🦖 Creat a repo on Github (Without .Readme) & All file in Local => Upload all files => Github </h1>
 <h4><code>Without .Readme</code> Because oterWise clone and downlod in Local => Then <code>git init</code> all Local folders => push </h4>
 
 <img src='source/new repo.png'>
@@ -165,7 +165,7 @@ git push
 
 <img src="source/git-branches-merge.png">
 
-# Branch Commands
+# 🦖 Branch Commands
 
 ```
 git branch                             ---to check the branch
@@ -189,7 +189,7 @@ git push otigin <-btanch Name->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-# Merging Code
+# 🦖 Merging Code
 
 <h3>Way 1</h3>
 

@@ -40,7 +40,9 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 git config --list
 ```
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<h1>🦖 Clone a Existing file in Local => Edit => Push</h1>
 ---
 
 # clone and status
@@ -123,4 +125,82 @@ git status
 ```css
 git push origin main
 ```
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<h1>Creat a repo on Github (Without .Readme) & All file in Local => Upload all files => Github </h1>
+<h4><code>Without .Readme</code> Because oterWise clone and downlod in Local => Then <code>git init</code> all Local folders => push </h4>
+
+<img src='source/new repo.png'>
+
+```
+git remote add origin https://github.com/username/repository.git
+git remote -v
+```
+<h4><code>git remote -v</code> to Verify the Remote Connection</h4>
+
+# Check the Branch
+
+```
+git branch
+```
+<h4>if U are in <code>*master</code> branch => main</h4>
+<h3>Rename the Branch => main</h3>
+
+```
+git branch -M main
+
+git push -u origin main
+```
+<h3><code>-u</code> mean Next every push in the Same Branch => So Next time only <code>git push</code></h3>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+# Extra
+
+It seems like there's a typo in the command. The correct command is `git branch`, which is used to manage branches in a Git repository.
+
+Here's how you can use the `git branch` command:
+
+1. **List Branches:**
+
+   To list all branches in your repository, you can simply run:
+   ```
+   git branch
+   ```
+   This command will display a list of all branches in your repository, with an asterisk (`*`) next to the branch you're currently on.
+
+2. **Create a New Branch:**
+
+   To create a new branch, you use the `git branch` command followed by the name of the new branch. For example:
+   ```
+   git branch new-feature
+   ```
+   This command creates a new branch named `new-feature` based on the current branch. However, it doesn't switch to the new branch. To switch to the new branch, you would use `git checkout`.
+
+3. **Switch Branches:**
+
+   To switch to a different branch, you use the `git checkout` command followed by the name of the branch you want to switch to. For example:
+   ```
+   git checkout new-feature
+   ```
+   This command switches to the `new-feature` branch.
+
+4. **Create and Switch to a New Branch:**
+
+   You can combine branch creation and switching into a single command using the `-b` flag with `git checkout`. For example:
+   ```
+   git checkout -b new-feature
+   ```
+   This command creates a new branch named `new-feature` and switches to it in one step.
+
+5. **Delete a Branch:**
+
+   To delete a branch, you use the `-d` flag with `git branch` followed by the name of the branch you want to delete. For example:
+   ```
+   git branch -d new-feature
+   ```
+   This command deletes the `new-feature` branch.
+
+These are some common uses of the `git branch` command for managing branches in your Git repository. Branching is a powerful feature in Git that allows you to work on different features or experiments simultaneously without affecting the main codebase.
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">

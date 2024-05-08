@@ -168,7 +168,7 @@ git push
 
 <img src="source/git-branches-merge.png">
 
-# 🦖 Branch Commands
+<h1> 🦖 Branch Commands</h1>
 
 
 <h4><code>git branch</code> ---to check the branch</h4>
@@ -192,7 +192,7 @@ git push otigin <-btanch Name->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-# 🦖 Merging Code
+<h1> 🦖 Merging Code</h1>
 
 <h3>Way 1</h3>
 

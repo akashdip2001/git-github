@@ -152,6 +152,15 @@ git push -u origin main
 ```
 <h3><code>-u</code> mean Next every push in the Same Branch => So Next time only <code>git push</code></h3>
 
+# Next any change in Local
+
+```
+git status
+git add .
+git commit -m "Add new file or anything"
+git push
+```
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 # Extra

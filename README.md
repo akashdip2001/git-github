@@ -104,14 +104,14 @@ git push
 # init command
 <h4><code>init</code> - used tu creat a new repo <h4>
 
-```csharp
+```
 ..
 mkdir <New File Name>
 cd <The new file name>
 git init
 ```
-<code>..</code> Back to main Folder
-<code>mkdir..</code> Creat a new Folder & enter with <code>cd</code>
+<h4><code>..</code> Back to main Folder</h4>
+<h4><code>mkdir..</code> Creat a new Folder & enter with <code>cd</code></h4>
 <h4>Then creat or edit anything in the folder</h4>
 
 ```
@@ -121,9 +121,11 @@ git add .
 git commit -m "Initial commit"
 git status
 ```
+
 ```css
 git push origin main
 ```
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <h1>🦖 Creat a repo on Github (Without .Readme) & All file in Local => Upload all files => Github </h1>
@@ -142,6 +144,7 @@ git remote -v
 ```
 git branch
 ```
+
 <h4>if U are in <code>*master</code> branch => main</h4>
 <h3>Rename the Branch => main</h3>
 
@@ -167,13 +170,13 @@ git push
 
 # 🦖 Branch Commands
 
-```
-git branch                             ---to check the branch
-git branch -M main                     ---ReName
-git checkout <-branch name->           ---to navigate => one Branch to another
-git checkout -b <- new branch name ->  ---to creat new branch
-git branch -d <- branch name ->        ---to Delete branch
-```
+
+<h4><code>git branch</code> ---to check the branch</h4>
+<h4><code>git branch -M main</code> ---ReName</h4>
+<h4><code>git checkout <-branch name-></code> -----navigate => one Branch to another</h4>
+<h4><code>git checkout -b <- new branch name -></code>  ---to creat new branch</h4>
+<h4><code>git branch -d <- branch name -></code> ---to Delete branch</h4>
+
 
 Then
 

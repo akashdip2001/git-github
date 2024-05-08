@@ -105,7 +105,6 @@ git push
 <h4><code>init</code> - used tu creat a new repo <h4>
 
 ```
-..
 mkdir <New File Name>
 cd <The new file name>
 git init

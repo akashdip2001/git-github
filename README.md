@@ -171,11 +171,11 @@ git push
 <h1> 🦖 Branch Commands</h1>
 
 
-<h4><code>git branch</code> ---to check the branch</h4>
-<h4><code>git branch -M main</code> ---ReName</h4>
-<h4><code>git checkout <-branch name-></code> -----navigate => one Branch to another</h4>
-<h4><code>git checkout -b <- new branch name -></code>  ---to creat new branch</h4>
-<h4><code>git branch -d <- branch name -></code> ---to Delete branch</h4>
+<h4><code>git branch</code></h4> <h5>---to check the branch</h5><br>
+<h4><code>git branch -M main</code></h4> <h5>---ReName</h5><br>
+<h4><code>git checkout <-branch name-></code></h4> <h5>-----navigate => one Branch to another</h5><br>
+<h4><code>git checkout -b <- new branch name -></code></h4> <h5>---to creat new branch</h5><br>
+<h4><code>git branch -d <- branch name -></code></h4> <h5>---to Delete branch</h5><br>
 
 
 Then

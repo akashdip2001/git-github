@@ -128,7 +128,7 @@ git push origin main
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h1>🦖 Creat a repo on Github (Without .Readme) & All file in Local => Upload all files => Github </h1>
+<h1>🦖 Creat a repo on Github (Without .Readme) & All file in Local <br>=> Upload all files <br>=> Github </h1>
 <h5><code>Without .Readme</code> Because oterWise clone and downlod in Local => Then <code>git init</code> all Local folders => push </h5>
 
 <img src='source/new repo.png'>
@@ -170,12 +170,16 @@ git push
 
 <h1> 🦖 Branch Commands</h1>
 
-
-<h4><code>git branch</code></h4> <h5>---to check the branch</h5><br>
-<h4><code>git branch -M main</code></h4> <h5>---ReName</h5><br>
-<h4><code>git checkout <-branch name-></code></h4> <h5>-----navigate => one Branch to another</h5><br>
-<h4><code>git checkout -b <- new branch name -></code></h4> <h5>---to creat new branch</h5><br>
-<h4><code>git branch -d <- branch name -></code></h4> <h5>---to Delete branch</h5><br>
+<h5>To check the branch</h5>
+<h4><code>git branch</code></h4> <br>
+<h5>ReName</h5>
+<h4><code>git branch -M main</code></h4> <br>
+<h5>navigate => one Branch to another</h5>
+<h4><code>git checkout <-branch name-></code></h4> <br>
+<h5>To creat new branch</h5
+<h4><code>git checkout -b <- new branch name -></code></h4> ><br>
+<h5>To Delete branch</h5>
+<h4><code>git branch -d <- branch name -></code></h4> <br>
 
 
 Then

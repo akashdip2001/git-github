@@ -194,9 +194,13 @@ git push otigin <-btanch Name->
 <h3>Way 1</h3>
 
 ```
-git diff <-branch name->   ----to compare commits, branches, files & more
-git merge <-branch name->
+git diff <-branch name- Example: main>   ----to compare commits, branches, files & more
+git merge <-branch name- Example: main>
 ```
 <h3>Way 2</h3>
 
 <h4>Creat a PR <code>Pull Request</code></h4>
+
+```
+git pull origin main    ---- Downlod and match all from Github to Local 
+```

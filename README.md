@@ -17,7 +17,7 @@ All important commands useng in git-github
 ---
 # install git & vsCode
 <h3> jast copy & past the code into your PowerShell - Done ✔️  </h3>
-<h4> You can install Git Bash using Chocolatey, a package manager for Windows. If you haven't installed Chocolatey yet, you can do so by running the following command in PowerShell with administrative privileges: </h4>
+<h5> You can install Git Bash using Chocolatey, a package manager for Windows. If you haven't installed Chocolatey yet, you can do so by running the following command in PowerShell with administrative privileges: </h5>
 
 ```less
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -79,22 +79,22 @@ git commit -m "Add new feature"
 ---
 # Push (uplode Remote <code>in Github</code>)
 
-<h4>Push Changes to a Remote Repository:Once you've committed your changes locally, you can use the git push command to push those changes to a remote repository. The syntax for git push is:</h4>
+<h5>Push Changes to a Remote Repository:Once you've committed your changes locally, you can use the git push command to push those changes to a remote repository. The syntax for git push is:</h5>
 
 ```php
 git push <remote_name> <branch_name>
 ```
-<h4>For example, if you want to push your changes to the main branch of the remote repository named origin, you would use:</h4>
+<h5>For example, if you want to push your changes to the main branch of the remote repository named origin, you would use:</h5>
 
 ```css
 git push origin main
 ```
-<h4>Replace origin with the name of your remote repository, and main with the name of the branch you're pushing to.If it's your first time pushing to the remote repository, you may need to specify the -u flag to set up tracking. This tells Git to remember the remote branch so that you can use git push without specifying the remote and branch in the future:</h4>
+<h5>Replace origin with the name of your remote repository, and main with the name of the branch you're pushing to.If it's your first time pushing to the remote repository, you may need to specify the -u flag to set up tracking. This tells Git to remember the remote branch so that you can use git push without specifying the remote and branch in the future:</h5>
 
 ```css
 git push -u origin main
 ```
-<h4>After the initial setup, you can simply use git push to push changes to the remote repository:</h4>
+<h5>After the initial setup, you can simply use git push to push changes to the remote repository:</h5>
 
 ```perl
 git push
@@ -129,7 +129,7 @@ git push origin main
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <h1>🦖 Creat a repo on Github (Without .Readme) & All file in Local => Upload all files => Github </h1>
-<h4><code>Without .Readme</code> Because oterWise clone and downlod in Local => Then <code>git init</code> all Local folders => push </h4>
+<h5><code>Without .Readme</code> Because oterWise clone and downlod in Local => Then <code>git init</code> all Local folders => push </h5>
 
 <img src='source/new repo.png'>
 

@@ -156,7 +156,7 @@ git push origin main
 
 **Without a README**: This allows you to clone the repository locally, initialize Git, and push all local files.
 
-![New Repository](source/new_repo.png)
+<img src='source/new repo.png'>
 
 ```bash
 git remote add origin https://github.com/username/repository.git
@@ -258,4 +258,4 @@ git pull origin main    # Download and synchronize with GitHub
 ---
 
 | [📄 Documentation](https://docs.chaicode.com/git-and-github/) |
-| ----------------------------------------------------------- |
+| --- |

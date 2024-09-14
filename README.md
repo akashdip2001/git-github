@@ -186,7 +186,7 @@ git push
 
 Then
 
-```
+```go
 git status
 
 git add .
@@ -202,7 +202,7 @@ git push otigin <-btanch Name->
 
 <h3>Way 1</h3>
 
-```
+```go
 git diff <-branch name- Example: main>   ----to compare commits, branches, files & more
 git merge <-branch name- Example: main>
 ```
@@ -210,6 +210,10 @@ git merge <-branch name- Example: main>
 
 <h4>Creat a PR <code>Pull Request</code></h4>
 
-```
+```go
 git pull origin main    ---- Downlod and match all from Github to Local 
 ```
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+| [Documentary](https://docs.chaicode.com/git-and-github/) |
+| --- |

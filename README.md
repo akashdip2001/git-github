@@ -257,6 +257,6 @@ git pull origin main    # Download and synchronize with GitHub
 
 ---
 
-| [📄 Documentation](https://docs.chaicode.com/git-and-github/) |
-| ------------------------------------------------------------- |
+[📄 Documentation](https://docs.chaicode.com/git-and-github/)
+
 

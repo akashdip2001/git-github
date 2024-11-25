@@ -1,4 +1,4 @@
-<img align="right" alt="python_logo" width="400" src="source/git-github.png"> 
+<img align="right" alt="python_logo" width="400" src="source/git&github.png"> 
 
 # Git & GitHub: Essential Commands
 

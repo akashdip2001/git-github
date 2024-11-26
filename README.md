@@ -151,7 +151,12 @@ Main Folder
 # git add filename_01.txt filename_02.txt
 git add .
 ```
-
+<details>	
+ <summary><b>image Guide</b></summary>
+<img src="https://github.com/user-attachments/assets/cbd1509f-39e9-4d95-a78b-910b1cc84229">
+<img src="https://github.com/user-attachments/assets/d448aaf0-2d6c-4b0d-b50f-91442960867f">
+</details>
+     
 *Use `git add .` to add all changes.*
 
 ```bash

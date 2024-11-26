@@ -200,6 +200,7 @@ git commit -m "1st commit"
 ```bash
 git commit -m "2nd commet after modified a file"
 ```
+<img align="center" width="65%" src="source/commit.svg"/>
 
 <img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 

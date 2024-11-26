@@ -316,7 +316,9 @@ git push
 
 # 🦖 Branch Commands [docs](https://docs.chaicode.com/branches-in-git/)
 
-![Git Branches Merge](source/git-branches-merge.png)
+<p align="center">
+     <img width="65%" src="source/git-branches-merge.png">
+</p>
 
 ### ✈️ Check the Branch
 

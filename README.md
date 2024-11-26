@@ -88,6 +88,7 @@ git init
   <img src="https://github.com/user-attachments/assets/d8789b6b-d46e-40ae-aea7-90ee92b7a9ba" alt="Image 2" width="45%" style="margin-right: 10px;"/>
 </p>
 </div>
+</details>
 
 
 # Or, 🦖 Clone an Existing Repository Locally, Edit, and Push from GitHub

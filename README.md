@@ -127,37 +127,18 @@ git status
 
 ### Status Indicators
 
-In Git, when you run commands like `git status`, you might see letters like **A**, **M**, or **U** next to file names. These indicate the state of the files in the working directory or index.
+Here’s a comprehensive table summarizing the states and their short indicators in Git, along with descriptions:
 
-These statuses help track the progress and state of changes in your repository.
+| **State**        | **Short Indicator** | **Description**                                                                                     | **Icon**                       |
+|-------------------|---------------------|-----------------------------------------------------------------------------------------------------|--------------------------------|
+| **Untracked**    | `??`               | Files that Git doesn't track yet. They are new and need to be added `git add .` to start tracking. | *(No specific icon provided)* |
+| **Modified**     | `M`                | Files that have been changed but are not yet staged for commit.                                    | <img src="source/M-git.png" width="30"/> |
+| **Staged**       | `A` or `M`         | Files added to the staging area. `A` for newly added, `M` for modified files staged for commit.    | <img src="source/A-git.png" width="30"/> |
+| **Unmodified**   | *(none)*           | Files that are tracked and have not been modified; they remain in their last committed state.      | *(No specific icon provided)* |
+| **Unmerged**     | `U` (or `UU`)      | Files with conflicts during a merge; need resolution before completing the merge.                  | <img src="source/U-git.png" width="30"/> | 
 
-In Git, the states you described are associated with short "logos" or indicators to denote the status of files. Here's how those states map to their short indicators:
-
-1. **Untracked**: `??`  
-   - This appears in `git status` to indicate files that Git does not yet track.
-
-2. **Modified**: `M` <img src="source/M-git.png" width="30"/> 
-   - The file has been modified but not yet staged (in `git status`) or it is staged and ready to commit.
-   - It reflects changes to an existing file in your project.
-
-3. **Staged**: `A` (Added) <img src="source/A-git.png" width="30"/> or `M` (if modifications are staged)  
-   - A file staged for the first time (newly added) shows as `A`.  
-   - If a modified file is staged, it will still show as `M`.
-
-4. **Unmodified**: (No indicator)  
-   - Files that are unmodified are not explicitly listed in `git status` as they are in a "clean" state.
-  
-5. . **Unmerged**: `U` <img src="source/U-git.png" width="30"/>
-   - The file has conflicts during a merge that need to be resolved.
-   - Git marks it as unmerged to indicate that the conflicts must be addressed before completing the merge.
-
-In summary, the short indicators used by Git for these states are:
-
-| **State**       | **Short Logo** |
-|------------------|----------------|
-| Modified        | `M`            |
-| Staged          | `A` or `M`     |
-| Unmerged        | `U`            |
+- UU for a file that is unmerged with conflicts.
+- AA, DD, etc., for specific merge conflict cases (e.g., both sides added or deleted a file).
 
 ---
 

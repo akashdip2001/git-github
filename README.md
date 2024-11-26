@@ -101,7 +101,7 @@ Main Folder
 #### Open Vs code -> Settings -> Exclud -> Remove Git from here.
 
 <details>	
- <summary><b>image Guide</b></summary><br>
+ <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary><br>
 <div style='display:flex; align-items:center; gap: 10px;' align='center'>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/862d7cd6-ed5a-48e0-b9a2-ddecef5db0f9" alt="Image 1" width="45%" style="margin-right: 10px;"/>
@@ -152,7 +152,7 @@ Main Folder
 git add .
 ```
 <details>	
- <summary><b>image Guide</b></summary>
+ <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary>
 <img src="https://github.com/user-attachments/assets/cbd1509f-39e9-4d95-a78b-910b1cc84229">
 <img src="https://github.com/user-attachments/assets/d448aaf0-2d6c-4b0d-b50f-91442960867f">
 </details>

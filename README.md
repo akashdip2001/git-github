@@ -318,37 +318,60 @@ git push
 
 ![Git Branches Merge](source/git-branches-merge.png)
 
-### Check the Branch
+### ✈️ Check the Branch
 
 ```bash
 git branch
 ```
 
-### Rename a Branch
+### ✈️ Rename a Branch
 
 ```bash
 git branch -M main
 ```
 
-### Navigate Between Branches
+### ✈️ Create a New Branch
 
 ```bash
-git checkout <branch-name>
+git branch <new-branch-name>
 ```
-
-### Create a New Branch
-
 ```bash
 git checkout -b <new-branch-name>
 ```
 
-### Delete a Branch
+### ✈️ Check all existing Branches
+```bash
+git branch
+```
+<details>	
+ <summary><b>also check using HEAD file</b></summary>
+     <img src="https://github.com/user-attachments/assets/16516caf-227a-4114-bf85-fb3a13081c7d">
+     <img src="https://github.com/user-attachments/assets/a96e9fb9-fd58-42a8-8a3b-689f96b78810">
+</details>
+
+### ✈️ Navigate Between Branches
+```bash
+# create new Branch Then switch
+git branch <branch-name>
+```
+```bash
+git switch <branch-name>
+```
+```bash
+git checkout <branch-name>
+```
+```bash
+# Auto create the branct (if not exist) & switch
+git switch -c <branch-name>
+```
+
+### ✈️ Delete a Branch
 
 ```bash
 git branch -d <branch-name>
 ```
 
-### After Making Changes
+### ✅ After Making Changes
 
 ```bash
 git status

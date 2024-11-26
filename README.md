@@ -68,15 +68,36 @@ git config --list
 ```
 
 ![Git Configuration](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
 <img align="right" alt="python_logo" width="400" src="source/gitflow.svg"> 
+
 # 🦖 Create an Repository Locally, Edit, and Push from GitHub
+```yaml
+Main Folder
+│
+│── Folder 01
+└── Folder 02: I want to track this folder
+```
+```bash
+cd Folder 02
+```
 ```bash
 git status
 ```
 ```bash
 git init
 ```
-
+```yaml
+Py Projects
+Main Folder
+│
+│── Folder 01
+└── Folder 02
+     │
+     │── .git
+     │── file 01
+     └── file 02
+```
 ## ⚠️ Not showing .git Folder ?
 #### Open Vs code -> Settings -> Exclud -> Remove Git from here.
 

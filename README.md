@@ -312,7 +312,7 @@ git commit -m "Add new file or update"
 git push
 ```
 
-![Git Push](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
 ![Git Branches Merge](source/git-branches-merge.png)
 

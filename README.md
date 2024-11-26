@@ -170,7 +170,7 @@ git add .
 *Use `git add .` to add all changes.*
 
 ```bash
-git commit -m "Add new feature"
+git commit -m "1st commit"
 ```
 <details>	
  <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary>
@@ -190,6 +190,12 @@ git commit -m "Add new feature"
      <img src="https://github.com/user-attachments/assets/0e6288cf-d378-49f6-8ddd-7076e0a33b14">
      <img src="https://github.com/user-attachments/assets/3c5cace7-03df-499b-9297-acd714a3b168">
 </details>
+
+*Again Use `git add .` to add all changes.*
+
+```bash
+git commit -m "2nd commet after modified a file"
+```
 
 <img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 

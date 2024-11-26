@@ -8,6 +8,22 @@
 
 ---
 
+## **Table of Contents**
+
+1. [Install Git & VS Code](#install-git--vs-code)
+2. [Check Git Installation](#check-git-installation)
+3. [Configuring Git (Terminal)](#configuring-git-terminal)
+4. [Create and Push Local Repository](#create-and-push-local-repository)
+5. [Clone and Check Status](#clone-and-check-status)
+6. [Git Status Indicators](#status-indicators)
+7. [Add and Commit (Local)](#add-and-commit-local)
+8. [Push to Remote Repository on GitHub](#push-upload-to-remote-repository-on-github)
+9. [Initialize a New Repository](#initialize-a-new-repository)
+10. [Branch Commands](#branch-commands)
+11. [Merging Code](#merging-code)
+
+---
+
 ## Install Git & VS Code
 
 ### Just copy & paste the code into your PowerShell - Done ✔️

@@ -69,9 +69,10 @@ git config --list
 
 ![Git Configuration](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
-<img align="right" alt="python_logo" width="400" src="source/gitflow.svg"> 
-
 # 🦖 Create an Repository Locally, Edit, and Push from GitHub
+
+<img align="right" alt="python_logo" width="500" src="source/gitflow.svg"> 
+
 ```yaml
 Main Folder
 │
@@ -94,9 +95,7 @@ Main Folder
 │── Folder 01
 └── Folder 02
      │
-     │── .git
-     │── file 01
-     └── file 02
+     └── .git: ⚠️
 ```
 ## ⚠️ Not showing .git Folder ?
 #### Open Vs code -> Settings -> Exclud -> Remove Git from here.
@@ -137,8 +136,19 @@ git status
 
 ## Add and Commit (Local)
 
+```yaml
+Py Projects
+Main Folder
+│
+│── Folder 01
+└── Folder 02
+     │
+     │── .git:
+     │── file 01
+     └── file 02
+```
 ```bash
-git add filename.txt
+# git add filename_01.txt filename_02.txt
 git add .
 ```
 

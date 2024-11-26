@@ -110,6 +110,7 @@ Main Folder
 </div>
 </details>
 
+![Git Configuration](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 # Or, 🦖 Clone an Existing Repository Locally, Edit, and Push from GitHub
 
@@ -137,10 +138,10 @@ Here’s a comprehensive table summarizing the states and their short indicators
 | **Unmodified**   | *(none)*           | Files that are tracked and have not been modified; they remain in their last committed state.      | *(No specific icon provided)* |
 | **Unmerged**     | `U` (or `UU`)      | Files with conflicts during a merge; need resolution before completing the merge.                  | <img src="source/U-git.png" width="30"/> | 
 
-- UU for a file that is unmerged with conflicts.
-- AA, DD, etc., for specific merge conflict cases (e.g., both sides added or deleted a file).
+- `UU` for a file that is unmerged with conflicts.
+- `AA`, `DD`, etc., for specific merge conflict cases (e.g., both sides added or deleted a file).
 
----
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
 ## Add and Commit (Local)
 <img align="right" alt="python_logo" width="200" src="source/U-A-git.png">
@@ -184,13 +185,13 @@ git commit -m "Add new feature"
 </p>
 
 <details>	
- <summary><b>Next img <img src="source/M-git.png" width="0"/></b></summary>
+ <summary><b>Next img <img src="source/M-git.png" width="20"/></b></summary>
      <img src="https://github.com/user-attachments/assets/e69da041-4cce-4e1c-8261-c28697f6ee60">
      <img src="https://github.com/user-attachments/assets/0e6288cf-d378-49f6-8ddd-7076e0a33b14">
      <img src="https://github.com/user-attachments/assets/3c5cace7-03df-499b-9297-acd714a3b168">
 </details>
 
----
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
 ## Push (Upload to Remote Repository on GitHub)
 

@@ -17,13 +17,13 @@
       - [Email]() 
 4. [Create Repository](#create-and-push-local-repository)
      - [Create Local Repository](#create-and-push-local-repository)
-     - [Clone & Check Status](#clone-and-check-status)
-5. [Git Status Indicators](#status-indicators)
-6. [Add and Commit (Local)](#add-and-commit-local)
-7. [Push to Remote Repository on GitHub](#push-upload-to-remote-repository-on-github)
-8. [Initialize a New Repository](#initialize-a-new-repository)
-9. [Branch Commands](#branch-commands)
-10. [Merging Code](#merging-code)
+     - [Clone & Check Status](#clone-Repository)
+       - [Git Status Indicators](#status-indicators)
+5. [Add and Commit (Local)](#add-and-commit-local)
+6. [Push to Remote Repository on GitHub](#push-upload-to-remote-repository-on-github)
+7. [Initialize a New Repository](#initialize-a-new-repository)
+8. [Branch Commands](#branch-commands)
+9. [Merging Code](#merging-code)
 
 ---
 
@@ -131,7 +131,7 @@ Main Folder
 
 ![Git Configuration](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
-# Or, 🦖 Clone an Existing Repository Locally, Edit, and Push from GitHub
+# Or, 🦖 Clone an Existing Repository Locally, Edit, and Push from GitHub <a name="clone-Repository"></a>
 
 ---
 

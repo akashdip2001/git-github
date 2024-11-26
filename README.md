@@ -387,9 +387,14 @@ git push origin <branch-name>
 ## Method 1: Using Git Commands
 
 ```bash
-git diff <branch-name>   # Compare commits, branches, files & more
+#git diff <branch-name>   # Compare commits, branches, files & more
 git merge <branch-name>
 ```
+
+<details>	
+ <summary><b>GUI</b></summary>
+     <img src="https://github.com/user-attachments/assets/5cb91386-b9de-4c8b-8852-cce8fae46f5b">
+</details>
 
 ## Method 2: Creating a Pull Request (PR)
 

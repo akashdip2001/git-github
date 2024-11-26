@@ -146,6 +146,8 @@ Here’s a comprehensive table summarizing the states and their short indicators
 ## Add and Commit (Local)
 <img align="right" alt="python_logo" width="200" src="source/U-A-git.png">
 
+### ✈️ Create new file --> add & commit
+
 ```yaml
 Py Projects
 Main Folder
@@ -162,22 +164,24 @@ Main Folder
 git add .
 ```
 <details>	
- <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary>
-<img src="https://github.com/user-attachments/assets/cbd1509f-39e9-4d95-a78b-910b1cc84229">
-<img src="https://github.com/user-attachments/assets/d448aaf0-2d6c-4b0d-b50f-91442960867f">
+ <summary><b>New file add . <img src="source/img_logo.png" width="20"/></b></summary>
+     <img src="https://github.com/user-attachments/assets/cbd1509f-39e9-4d95-a78b-910b1cc84229">
 </details>
-     
+
+<details>	
+ <summary><b>Again create a New file <img src="source/img_logo.png" width="20"/> & commit all</b></summary>
+     <img src="https://github.com/user-attachments/assets/d448aaf0-2d6c-4b0d-b50f-91442960867f">
+     <img src="https://github.com/user-attachments/assets/b1508042-428f-4c3e-9ddd-eb73a5fa338c">
+</details>
+
 *Use `git add .` to add all changes.*
 
 ```bash
 git commit -m "1st commit"
 ```
-<details>	
- <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary>
-<img src="https://github.com/user-attachments/assets/b1508042-428f-4c3e-9ddd-eb73a5fa338c">
-</details>
+---
 
-### Modified & Commit
+### ✈️ Modified (edit) any file --> **again** add & Commit again
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bb9ee592-da16-40d4-bf70-086d140511a5" alt="Image 1" width="65%" style="margin-right: 10px;"/>

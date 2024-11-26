@@ -127,14 +127,42 @@ git status
 
 ### Status Indicators
 
-- <span style="color: red;">**Untracked**</span>: New files that Git doesn't track
-- <span style="color: red;">**Modified**</span>: Changed files
-- <span style="color: red;">**Staged**</span>: Files ready to be committed
-- <span style="color: red;">**Unmodified**</span>: Unchanged files
+In Git, when you run commands like `git status`, you might see letters like **A**, **M**, or **U** next to file names. These indicate the state of the files in the working directory or index.
+
+These statuses help track the progress and state of changes in your repository.
+
+In Git, the states you described are associated with short "logos" or indicators to denote the status of files. Here's how those states map to their short indicators:
+
+1. **Untracked**: `??`  
+   - This appears in `git status` to indicate files that Git does not yet track.
+
+2. **Modified**: `M` <img src="source/M-git.png" width="30"/> 
+   - The file has been modified but not yet staged (in `git status`) or it is staged and ready to commit.
+   - It reflects changes to an existing file in your project.
+
+3. **Staged**: `A` (Added) <img src="source/A-git.png" width="30"/> or `M` (if modifications are staged)  
+   - A file staged for the first time (newly added) shows as `A`.  
+   - If a modified file is staged, it will still show as `M`.
+
+4. **Unmodified**: (No indicator)  
+   - Files that are unmodified are not explicitly listed in `git status` as they are in a "clean" state.
+  
+5. . **Unmerged**: `U` <img src="source/U-git.png" width="30"/>
+   - The file has conflicts during a merge that need to be resolved.
+   - Git marks it as unmerged to indicate that the conflicts must be addressed before completing the merge.
+
+In summary, the short indicators used by Git for these states are:
+
+| **State**       | **Short Logo** |
+|------------------|----------------|
+| Modified        | `M`            |
+| Staged          | `A` or `M`     |
+| Unmerged        | `U`            |
 
 ---
 
 ## Add and Commit (Local)
+<img align="right" alt="python_logo" width="200" src="source/U-A-git.png">
 
 ```yaml
 Py Projects
@@ -165,6 +193,20 @@ git commit -m "Add new feature"
 <details>	
  <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary>
 <img src="https://github.com/user-attachments/assets/b1508042-428f-4c3e-9ddd-eb73a5fa338c">
+</details>
+
+### Modified & Commit
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb9ee592-da16-40d4-bf70-086d140511a5" alt="Image 1" width="65%" style="margin-right: 10px;"/>
+  <img src="source/M-git.png" alt="Image 2" width="15%" style="margin-right: 10px;"/>
+</p>
+
+<details>	
+ <summary><b>Next img <img src="source/M-git.png" width="0"/></b></summary>
+     <img src="https://github.com/user-attachments/assets/e69da041-4cce-4e1c-8261-c28697f6ee60">
+     <img src="https://github.com/user-attachments/assets/0e6288cf-d378-49f6-8ddd-7076e0a33b14">
+     <img src="https://github.com/user-attachments/assets/3c5cace7-03df-499b-9297-acd714a3b168">
 </details>
 
 ---

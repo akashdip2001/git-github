@@ -35,6 +35,19 @@ choco install vscode
 ```bash
 git --version
 ```
+```bash
+#check where oyu are?
+pwd
+
+#All files & folders
+ls
+
+#The folder tracked by git or not ?
+git status
+```
+
+| [docs](https://docs.chaicode.com/terminology/) |
+| --- |
 
 ---
 

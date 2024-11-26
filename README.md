@@ -40,10 +40,12 @@ git --version
 ```bash
 #check where oyu are?
 pwd
-
+```
+```bash
 #All files & folders
 ls
-
+```
+```bash
 #The folder tracked by git or not ?
 git status
 ```
@@ -57,13 +59,33 @@ git status
 
 ```bash
 git config --global user.name "Your Name"
+```
+```bash
 git config --global user.email "your.email@example.com"
+```
+```bash
 git config --list
 ```
 
 ![Git Configuration](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
-# 🦖 Clone an Existing Repository Locally, Edit, and Push
+# 🦖 Create an Repository Locally, Edit, and Push from GitHub
+```bash
+git status
+```
+```bash
+git init
+```
+
+## Not showing .git Folder ?
+#### Open Vs code -> Settings -> Exclud -> Remove Git from here.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/862d7cd6-ed5a-48e0-b9a2-ddecef5db0f9" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/d8789b6b-d46e-40ae-aea7-90ee92b7a9ba" alt="Image 2" width="45%" style="margin-right: 10px;"/>
+</p>
+
+# Or, 🦖 Clone an Existing Repository Locally, Edit, and Push from GitHub
 
 ---
 

@@ -148,6 +148,9 @@ Here’s a comprehensive table summarizing the states and their short indicators
 
 ### ✈️ Create new file --> add & commit
 
+```bash
+touch "file 01" "file 02"
+```
 ```yaml
 Py Projects
 Main Folder

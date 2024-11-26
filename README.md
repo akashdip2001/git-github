@@ -411,6 +411,7 @@ git pull origin main    # Download and synchronize with GitHub
 
 ---
 
-[📄 Documentation](https://docs.chaicode.com/git-and-github/)
+| 📄 [Documentation](https://docs.chaicode.com/git-and-github/) | <img src="https://user-images.githubusercontent.com/81384987/209952974-0163b04e-ccae-4be5-844a-075ef85c43d2.png" height="15" width="20"/>  [My YouTube Channel](https://youtu.be/q8EevlEpQ2A?si=AFDUT-cTa-OXjufz&t=6370) |
+| --- | --- |
 
 

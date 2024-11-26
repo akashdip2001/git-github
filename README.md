@@ -329,7 +329,8 @@ git branch
 ### ✈️ Rename a Branch
 
 ```bash
-git branch -M main
+#git branch -M main
+git branch -m <old-branch-name> <new-branch-name>
 ```
 
 ### ✈️ Create a New Branch

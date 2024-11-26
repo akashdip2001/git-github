@@ -32,6 +32,8 @@ choco install vscode
 
 ## Check Git Installation
 
+<img align="right" alt="python_logo" width="400" src="source/git_status.svg"> 
+
 ```bash
 git --version
 ```

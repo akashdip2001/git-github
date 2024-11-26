@@ -196,6 +196,9 @@ git commit -m "1st commit"
 </details>
 
 *Again Use `git add .` to add all changes.*
+```bash
+git add filename_02.txt
+```
 
 ```bash
 git commit -m "2nd commet after modified a file"

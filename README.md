@@ -314,9 +314,9 @@ git push
 
 <img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
-![Git Branches Merge](source/git-branches-merge.png)
+# 🦖 Branch Commands [docs](https://docs.chaicode.com/branches-in-git/)
 
-# 🦖 Branch Commands
+![Git Branches Merge](source/git-branches-merge.png)
 
 ### Check the Branch
 

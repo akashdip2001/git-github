@@ -386,6 +386,8 @@ git push origin <branch-name>
 
 ## Method 1: Using Git Commands
 
+<img align="right" alt="python_logo" width="400" src="source/fast-merge.svg"> 
+
 ```bash
 #git diff <branch-name>   # Compare commits, branches, files & more
 git merge <branch-name>

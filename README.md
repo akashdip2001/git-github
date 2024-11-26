@@ -20,10 +20,20 @@
      - [Clone & Check Status](#clone-Repository)
        - [Git Status Indicators](#status-indicators)
 5. [Add and Commit (Local)](#add-and-commit-local)
+   - [Create file]()
+   - [git add .]()
+   - [git commit]()
+   - [Then Modified & commit]() 
 6. [Push to Remote Repository on GitHub](#push-upload-to-remote-repository-on-github)
 7. [Initialize a New Repository](#initialize-a-new-repository)
-8. [Branch Commands](#branch-commands)
-9. [Merging Code](#merging-code)
+8. [Branch Commands](#git-branch-commands)
+    - [Check the Branch]()
+    - [Rename a Branch]()
+    - [Create a New Branch]()
+    - [Check all existing Branches]()
+    - [Navigate Between Branches]()
+    - [Delete a Branch]()
+10. [Merging Code](#git-merging-code)
 
 ---
 
@@ -333,7 +343,7 @@ git push
 
 <img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
-# 🦖 Branch Commands [docs](https://docs.chaicode.com/branches-in-git/)
+# 🦖 Branch Commands <a name="git-branch-commands"></a>
 
 <p align="center">
      <img width="65%" src="source/git-branches-merge.png">
@@ -401,10 +411,12 @@ git add .
 git commit -m "Your commit message"
 git push origin <branch-name>
 ```
+|  [docs](https://docs.chaicode.com/branches-in-git/) |
+| --- |
 
 ![Branch Operations](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
-# 🦖 Merging Code
+# 🦖 Merging Code <a name="git-merging-code"></a>
 
 ## Method 1: Using Git Commands
 

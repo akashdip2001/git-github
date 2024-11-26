@@ -77,7 +77,7 @@ git status
 git init
 ```
 
-## Not showing .git Folder ?
+## ⚠️ Not showing .git Folder ?
 #### Open Vs code -> Settings -> Exclud -> Remove Git from here.
 
 <details>	

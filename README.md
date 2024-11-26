@@ -10,6 +10,8 @@
 
 ## **Table of Contents**
 
+<img align="right" alt="python_logo" width="550" src="source/gitflow.svg"> 
+
 1. [Install Git & VS Code](#install-git--vs-code)
 2. [Check Git Installation](#check-git-installation)
 3. [Configuring Git (Terminal)](#configuring-git-terminal)

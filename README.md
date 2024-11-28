@@ -245,6 +245,8 @@ git commit -m "2nd commet after modified a file"
 
 ## Push (Upload to Remote Repository on GitHub)
 
+<img align="right" alt="python_logo" width="400" src="source/merge conflict.png">
+
 <details>	
  <summary><b>⚠️⚠️⚠️ VS-code & Web-editor ❌ Merge Conflicts ⚠️⚠️⚠️ <img src="source/img_logo.png" width="20"/></b></summary><br>
 <div style='display:flex; align-items:center; gap: 10px;'>

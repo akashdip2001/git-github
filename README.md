@@ -248,6 +248,7 @@ git commit -m "2nd commet after modified a file"
 <details>	
  <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary><br>
 <div style='display:flex; align-items:center; gap: 10px;' align='center'>
+      
 [![git & github with vs code setup](https://github.com/user-attachments/assets/8594ba0c-c0da-4002-8b6f-cfa57fa9d3b1)](https://www.youtube.com/watch?v=mryez-QqMj4)
 
 ### ⚠️ I have a github propository in the github. And I clone this repository using http URL, so I directly push my all changes through VS code. But what happened eat I open Github web editor and modify any file and push from it. This time how to sync my geethab with vs code in this two cases - case1 - if my I not work on vs good and there was no modified or changes. And in case2 - what happened I update from GitHub web editor but there was also some modification exist in v.s code which is comet but not push ⚠️

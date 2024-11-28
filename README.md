@@ -245,7 +245,79 @@ git commit -m "2nd commet after modified a file"
 
 ## Push (Upload to Remote Repository on GitHub)
 
+<details>	
+ <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary><br>
+<div style='display:flex; align-items:center; gap: 10px;' align='center'>
 [![git & github with vs code setup](https://github.com/user-attachments/assets/8594ba0c-c0da-4002-8b6f-cfa57fa9d3b1)](https://www.youtube.com/watch?v=mryez-QqMj4)
+
+### ⚠️ I have a github propository in the github. And I clone this repository using http URL, so I directly push my all changes through VS code. But what happened eat I open Github web editor and modify any file and push from it. This time how to sync my geethab with vs code in this two cases - case1 - if my I not work on vs good and there was no modified or changes. And in case2 - what happened I update from GitHub web editor but there was also some modification exist in v.s code which is comet but not push ⚠️
+
+### ✅ Solution
+
+To synchronize your local repository (in VS Code) with the remote GitHub repository in both cases, follow these steps:
+
+---
+
+### **Case 1: No Local Changes in VS Code**
+You updated a file in the GitHub web editor, but no changes were made in your local repository.
+
+1. **Pull the Latest Changes**:
+   - Open the terminal in VS Code or use the Source Control tab.
+   - Run:
+     ```bash
+     git pull origin <branch_name>
+     ```
+   - Replace `<branch_name>` with the branch you are working on (e.g., `main` or `master`).
+
+2. **Confirm Sync**:
+   - After pulling, your local repository will now match the remote repository since there were no local changes to cause a conflict.
+
+---
+
+### **Case 2: Local Changes in VS Code Not Pushed Yet**
+You updated a file in the GitHub web editor and also made changes locally that are committed but not pushed.
+
+1. **Pull the Latest Changes**:
+   - First, fetch and merge the remote changes using:
+     ```bash
+     git pull origin <branch_name>
+     ```
+
+2. **Resolve Merge Conflicts (if any)**:
+   - If there are conflicts between the changes made locally and those from the GitHub web editor, Git will indicate the files with conflicts. Resolve these conflicts by:
+     - Opening the conflicted files in VS Code.
+     - Looking for conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`).
+     - Deciding whether to keep your changes, the remote changes, or both.
+   - After resolving the conflicts, stage the resolved files:
+     ```bash
+     git add <file_name>
+     ```
+   - Commit the resolved changes:
+     ```bash
+     git commit -m "Resolved merge conflicts"
+     ```
+
+3. **Push Your Changes**:
+   - Once the merge is complete and there are no conflicts, push your changes back to the remote repository:
+     ```bash
+     git push origin <branch_name>
+     ```
+
+---
+
+### **Notes**
+- Always pull the latest changes before starting work in VS Code to minimize conflicts.
+- Use `git status` frequently to check the state of your repository and understand whether changes are staged, unstaged, or committed.
+- If you only want to review the changes made in the GitHub web editor before pulling, use:
+  ```bash
+  git fetch origin <branch_name>
+  git log origin/<branch_name>
+  ```
+
+This approach keeps both your local and remote repositories in sync efficiently.
+
+</div>
+</details>
 
 ### Push Changes to a Remote Repository
 

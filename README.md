@@ -245,6 +245,8 @@ git commit -m "2nd commet after modified a file"
 
 ## Push (Upload to Remote Repository on GitHub)
 
+[![git & github with vs code setup](https://github.com/user-attachments/assets/8594ba0c-c0da-4002-8b6f-cfa57fa9d3b1)](https://www.youtube.com/watch?v=mryez-QqMj4)
+
 ### Push Changes to a Remote Repository
 
 Once you've committed your changes locally, use the `git push` command to push those changes to a remote repository.

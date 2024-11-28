@@ -314,6 +314,7 @@ You updated a file in the GitHub web editor and also made changes locally that a
   git fetch origin <branch_name>
   git log origin/<branch_name>
   ```
+[![git & github with vs code setup](https://img.youtube.com/vi/vArkGr5nzVU/0.jpg)](https://www.youtube.com/watch?v=vArkGr5nzVU)
 
 #### ✅ This approach keeps both your local and remote repositories in sync efficiently. ✅
 

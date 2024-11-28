@@ -253,13 +253,13 @@ git commit -m "2nd commet after modified a file"
 
 ### ⚠️ I have a github propository in the github. And I clone this repository using http URL, so I directly push my all changes through VS code. But what happened eat I open Github web editor and modify any file and push from it. This time how to sync my geethab with vs code in this two cases - case1 - if my I not work on vs good and there was no modified or changes. And in case2 - what happened I update from GitHub web editor but there was also some modification exist in v.s code which is comet but not push ⚠️
 
-### ✅ Solution
+### ✅ Solution ✅
 
 To synchronize your local repository (in VS Code) with the remote GitHub repository in both cases, follow these steps:
 
 ---
 
-### **Case 1: No Local Changes in VS Code**
+### ✅ **Case 1: No Local Changes in VS Code**
 You updated a file in the GitHub web editor, but no changes were made in your local repository.
 
 1. **Pull the Latest Changes**:
@@ -275,7 +275,7 @@ You updated a file in the GitHub web editor, but no changes were made in your lo
 
 ---
 
-### **Case 2: Local Changes in VS Code Not Pushed Yet**
+### ✅ **Case 2: Local Changes in VS Code Not Pushed Yet**
 You updated a file in the GitHub web editor and also made changes locally that are committed but not pushed.
 
 1. **Pull the Latest Changes**:
@@ -284,7 +284,7 @@ You updated a file in the GitHub web editor and also made changes locally that a
      git pull origin <branch_name>
      ```
 
-2. **Resolve Merge Conflicts (if any)**:
+2. ⚠️ **Resolve Merge Conflicts (if any)**:
    - If there are conflicts between the changes made locally and those from the GitHub web editor, Git will indicate the files with conflicts. Resolve these conflicts by:
      - Opening the conflicted files in VS Code.
      - Looking for conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`).

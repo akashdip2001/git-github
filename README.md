@@ -246,8 +246,8 @@ git commit -m "2nd commet after modified a file"
 ## Push (Upload to Remote Repository on GitHub)
 
 <details>	
- <summary><b>image Guide <img src="source/img_logo.png" width="20"/></b></summary><br>
-<div style='display:flex; align-items:center; gap: 10px;' align='center'>
+ <summary><b>⚠️⚠️⚠️ VS-code & Web-editor ❌ Merge Conflicts ⚠️⚠️⚠️ <img src="source/img_logo.png" width="20"/></b></summary><br>
+<div style='display:flex; align-items:center; gap: 10px;'>
       
 [![git & github with vs code setup](https://github.com/user-attachments/assets/8594ba0c-c0da-4002-8b6f-cfa57fa9d3b1)](https://www.youtube.com/watch?v=mryez-QqMj4)
 
@@ -315,7 +315,7 @@ You updated a file in the GitHub web editor and also made changes locally that a
   git log origin/<branch_name>
   ```
 
-This approach keeps both your local and remote repositories in sync efficiently.
+#### ✅ This approach keeps both your local and remote repositories in sync efficiently. ✅
 
 </div>
 </details>

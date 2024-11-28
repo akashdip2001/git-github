@@ -27,6 +27,7 @@
    - [git commit]()
    - [Then Modified & commit]() 
 6. [Push to Remote Repository on GitHub](#push-upload-to-remote-repository-on-github)
+      -[VS-code & Web-editor ⚠️ Merge Conflicts](https://youtu.be/vArkGr5nzVU)
 7. [Initialize a New Repository](#initialize-a-new-repository)
 8. [Branch Commands](#git-branch-commands)
     - [Check the Branch]()

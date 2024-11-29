@@ -500,7 +500,7 @@ git push origin <branch-name>
 ## Create a new Branch in VS-Code ⚠️ git push
 
 <details>	
- <summary><b>Next img <img src="source/M-git.png" width="20"/></b></summary>
+ <summary><b>Next img <img src="https://github.com/user-attachments/assets/081c9e98-59a4-4844-8e2d-5655df64325c" width="20"/></b></summary>
       
 ![Screenshot (359)](https://github.com/user-attachments/assets/e1d6f25d-6485-4044-b3c3-586d65a1fb95)
 

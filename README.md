@@ -497,6 +497,35 @@ git push origin <branch-name>
 |  [docs](https://docs.chaicode.com/branches-in-git/) |
 | --- |
 
+## Create a new Branch in VS-Code ⚠️ git push
+
+![Screenshot (359)](https://github.com/user-attachments/assets/e1d6f25d-6485-4044-b3c3-586d65a1fb95)
+
+```bash
+git branch
+```
+```bash
+git branch "Test-Share-link"
+```
+```bash
+git switch "Test-Share-link"
+```
+```bash
+git branch
+```
+```bash
+git status
+```
+```bash
+git add .
+git commit -m "add Test-Share-link .md file"
+# ❌ git push
+```
+```bash
+# ✅
+git push --set-upstream origin Test-Share-link
+```
+
 ![Branch Operations](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 # 🦖 Merging Code <a name="git-merging-code"></a>

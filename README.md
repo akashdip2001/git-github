@@ -247,13 +247,13 @@ git commit -m "2nd commet after modified a file"
 
 ## Push (Upload to Remote Repository on GitHub)
 
-<img align="right" alt="python_logo" width="400" src="source/merge conflict.png">
+[<img align="right" alt="python_logo" width="400" src="https://github.com/user-attachments/assets/81cc2f67-cf4b-45c9-94d0-e030cf179ec6">](https://www.youtube.com/watch?v=BXR_HoROl3E)
 
 <details>	
  <summary><b>⚠️⚠️⚠️ VS-code & Web-editor ❌ Merge Conflicts ⚠️⚠️⚠️ <img src="source/img_logo.png" width="20"/></b></summary><br>
 <div style='display:flex; align-items:center; gap: 10px;'>
-      
-[![git & github with vs code setup](https://github.com/user-attachments/assets/8594ba0c-c0da-4002-8b6f-cfa57fa9d3b1)](https://www.youtube.com/watch?v=mryez-QqMj4)
+
+[![git & github with vs code setup](https://github.com/user-attachments/assets/a760cf72-1732-4ec3-b01f-f45112001928)](https://www.youtube.com/watch?v=mryez-QqMj4)
 
 ### ⚠️ I have a github propository in the github. And I clone this repository using http URL, so I directly push my all changes through VS code. But what happened eat I open Github web editor and modify any file and push from it. This time how to sync my geethab with vs code in this two cases - case1 - if my I not work on vs good and there was no modified or changes. And in case2 - what happened I update from GitHub web editor but there was also some modification exist in v.s code which is comet but not push ⚠️
 
@@ -318,7 +318,8 @@ You updated a file in the GitHub web editor and also made changes locally that a
   git fetch origin <branch_name>
   git log origin/<branch_name>
   ```
-[![git & github with vs code setup](https://img.youtube.com/vi/vArkGr5nzVU/0.jpg)](https://www.youtube.com/watch?v=vArkGr5nzVU)
+[![git & github with vs code setup](https://github.com/user-attachments/assets/7c27723a-a05c-4c29-ba4a-18d81c225eb2)](https://www.youtube.com/watch?v=vArkGr5nzVU)
+
 
 #### ✅ This approach keeps both your local and remote repositories in sync efficiently. ✅
 

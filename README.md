@@ -499,6 +499,9 @@ git push origin <branch-name>
 
 ## Create a new Branch in VS-Code ⚠️ git push
 
+<details>	
+ <summary><b>Next img <img src="source/M-git.png" width="20"/></b></summary>
+      
 ![Screenshot (359)](https://github.com/user-attachments/assets/e1d6f25d-6485-4044-b3c3-586d65a1fb95)
 
 ```bash
@@ -525,6 +528,12 @@ git commit -m "add Test-Share-link .md file"
 # ✅
 git push --set-upstream origin Test-Share-link
 ```
+![Screenshot (360)](https://github.com/user-attachments/assets/07bde987-8385-4313-9b14-033510b007c6)
+![Screenshot (361)](https://github.com/user-attachments/assets/883e57e7-16df-4fae-babf-70b8a0d23eab)
+![Screenshot (362)](https://github.com/user-attachments/assets/c9e4e990-6403-4e1c-9325-8a9e0b2bea1e)
+![Screenshot (363)](https://github.com/user-attachments/assets/596f4a09-f6cf-4dd6-b641-ad631494d859)
+
+</details>
 
 ![Branch Operations](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 

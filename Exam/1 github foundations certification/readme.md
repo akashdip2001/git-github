@@ -1,3 +1,4 @@
+[<img align="right" alt="python_logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-foundations.png">](https://www.credly.com/go/6C69ZOKh) 
 
 Topics 
 

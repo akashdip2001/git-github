@@ -3,8 +3,8 @@
 # Git & GitHub: Essential Commands
 
 
-| 🔭 [**my website**](https://akashdip2001.github.io/linktree/) | [Git docs.](https://docs.chaicode.com/git-and-github/) | [<img src="https://user-images.githubusercontent.com/81384987/209952974-0163b04e-ccae-4be5-844a-075ef85c43d2.png" height="15" width="20"/> My YouTube Channel](https://www.youtube.com/c/akashaot) |
-| --- | --- | --- |
+| 🔭 [**my website**](https://akashdip2001.github.io/linktree/) | [Git docs.](https://docs.chaicode.com/git-and-github/) | [<img src="https://user-images.githubusercontent.com/81384987/209952974-0163b04e-ccae-4be5-844a-075ef85c43d2.png" height="15" width="20"/> My YouTube Channel](https://www.youtube.com/c/akashaot) | [Exams MCQ](./Exam/1%20github%20foundations%20certification/readme.md) |
+| --- | --- | --- | --- |
 
 ---
 
@@ -38,6 +38,7 @@
     - [Navigate Between Branches]()
     - [Delete a Branch]()
 10. [Merging Code](#git-merging-code)
+11. [GitHub Exam](./Exam/1%20github%20foundations%20certification/readme.md)
 
 ---
 
@@ -565,5 +566,9 @@ git pull origin main    # Download and synchronize with GitHub
 
 | 📄 [Documentation](https://docs.chaicode.com/git-and-github/) | <img src="https://user-images.githubusercontent.com/81384987/209952974-0163b04e-ccae-4be5-844a-075ef85c43d2.png" height="15" width="20"/>  [My YouTube Channel](https://youtu.be/q8EevlEpQ2A?si=AFDUT-cTa-OXjufz&t=6370) |
 | --- | --- |
+
+---
+
+# [GitHub Exam](./Exam/1%20github%20foundations%20certification/readme.md)
 
 

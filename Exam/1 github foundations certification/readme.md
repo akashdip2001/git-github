@@ -1,4 +1,4 @@
-[<img align="right" alt="python_logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-foundations.png">](https://www.credly.com/go/6C69ZOKh) 
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-foundations.png">](https://www.credly.com/go/6C69ZOKh) 
 
 Topics 
 
@@ -209,7 +209,7 @@ Topics
 
 ## Practice more: [link](https://ghcertified.com/practice_tests/)
 
-[<img align="right" alt="python_logo" width="300" src="../../source/GitHub Foundations.jpg">](https://www.credly.com/go/6C69ZOKh) 
+[<img src="../../source/GitHub Foundations.jpg">](https://www.credly.com/go/6C69ZOKh) 
 
 ---
 

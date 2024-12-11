@@ -207,7 +207,9 @@ Topics
 
 ---
 
-## Practice more: [https://ghcertified.com/practice\_tests/](https://ghcertified.com/practice_tests/)
+## Practice more: [link](https://ghcertified.com/practice_tests/)
+
+[<img align="right" alt="python_logo" width="300" src="source/GitHub Foundations.jpg">](https://www.credly.com/go/6C69ZOKh) 
 
 ---
 

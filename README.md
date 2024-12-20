@@ -35,7 +35,7 @@
    - [Then Modified & commit]() 
 6. [Push to Remote Repository on GitHub](#push-upload-to-remote-repository-on-github)
     1. [VS-code & Web-editor ⚠️ Merge Conflicts](https://youtu.be/vArkGr5nzVU)
-    2. [...]()
+    2. [Update the Git Remote URL]()
 8. [Initialize a New Repository](#initialize-a-new-repository)
 9. [Branch Commands](#git-branch-commands)
     - [Check the Branch]()
@@ -364,6 +364,90 @@ git push -u origin main
 git push
 ```
 
+## Update the Git Remote URL
+
+🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+### 1. 🚀 git clone from a another profile/repo
+   ![Screenshot (708)](https://github.com/user-attachments/assets/fb5aa6d3-25e5-4afd-a9f0-376ca1cf6f6e)
+
+### 2. 🚀 Check the Targate repo
+   ![Screenshot (709)](https://github.com/user-attachments/assets/5a017d80-ea69-4291-ada5-8f5de91c04fa)
+
+### 3. 🚀 Update the Targate repo
+
+####  Step 1: Update the Git Remote URL
+In the `node-todo-cicd` directory, update the remote URL to point to your repository:
+
+```bash
+git remote set-url origin https://github.com/akashdip2001/AWS.git
+```
+
+Verify the change with:
+
+```bash
+git remote -v
+```
+
+It should now display:
+
+```plaintext
+origin  https://github.com/akashdip2001/AWS.git (fetch)
+origin  https://github.com/akashdip2001/AWS.git (push)
+```
+
+---
+
+### Step 2: Move the Files to the Target Directory
+1. Create the directory structure in your repository:
+
+   ```bash
+   mkdir -p Projects/CI-CD/Project\ 001
+   mv * Projects/CI-CD/Project\ 001/
+   ```
+
+2. Ensure no unnecessary files (e.g., `.git` from the original project) are moved:
+
+   ```bash
+   rm -rf Projects/CI-CD/Project\ 001/.git
+   ```
+
+---
+
+### Step 3: Stage and Commit the Changes
+1. Add the new directory and its content to the staging area:
+
+   ```bash
+   git add Projects/CI-CD/Project\ 001/
+   ```
+
+2. Commit the changes with an appropriate message:
+
+   ```bash
+   git commit -m "Added node-todo-cicd project to Projects/CI-CD/Project 001"
+   ```
+
+---
+
+### Step 4: Push the Changes
+Push the changes to your repository on GitHub:
+
+```bash
+git push origin main
+```
+
+Replace `main` with the branch name you're using if it differs.
+
+---
+
+### Step 5: Verify the Upload
+1. Go to your repository on GitHub: [https://github.com/akashdip2001/AWS](https://github.com/akashdip2001/AWS).
+2. Navigate to `Projects/CI-CD/Project 001` to ensure the files are correctly placed.
+
+---
+
+This method ensures the project is correctly uploaded to the desired directory in your repository.
+🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+---
 ---
 
 ## Initialize a New Repository

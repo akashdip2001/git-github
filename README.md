@@ -35,7 +35,7 @@
    - [Then Modified & commit]() 
 6. [Push to Remote Repository on GitHub](#push-upload-to-remote-repository-on-github)
     1. [VS-code & Web-editor ⚠️ Merge Conflicts](https://youtu.be/vArkGr5nzVU)
-    2. [Update the Git Remote URL]()
+    2. 🚀 [Update the Git Remote URL]()
 8. [Initialize a New Repository](#initialize-a-new-repository)
 9. [Branch Commands](#git-branch-commands)
     - [Check the Branch]()
@@ -364,6 +364,8 @@ git push -u origin main
 git push
 ```
 
+🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+
 ## Update the Git Remote URL
 
 🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
@@ -432,10 +434,10 @@ origin  https://github.com/akashdip2001/AWS.git (push)
 Push the changes to your repository on GitHub:
 
 ```bash
-git push origin main
+git push origin master
 ```
 
-Replace `main` with the branch name you're using if it differs.
+Replace `master` with the branch name you're using if it differs.
 
 ---
 

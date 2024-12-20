@@ -448,6 +448,9 @@ Replace `master` with the branch name you're using if it differs.
 ---
 
 This method ensures the project is correctly uploaded to the desired directory in your repository.
+
+![Screenshot 2024-12-20 172351](https://github.com/user-attachments/assets/af095196-abe7-4d31-9b62-db7c7a3a37bd)
+
 🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
 ---
 ---

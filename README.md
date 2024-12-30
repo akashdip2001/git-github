@@ -2,8 +2,11 @@
 
 # Git & GitHub: Essential Commands
 
-| 🔭 [**my website**](https://akashdip2001.github.io/linktree/) | [Git docs.](https://docs.chaicode.com/git-and-github/) | [<img src="https://user-images.githubusercontent.com/81384987/209952974-0163b04e-ccae-4be5-844a-075ef85c43d2.png" height="15" width="20"/> My YouTube Channel](https://www.youtube.com/c/akashaot) | [Exams MCQ](./Exam/1%20github%20foundations%20certification/readme.md) |
-| --- | --- | --- | --- |
+| 🔭 [**my website**](https://akashdip2001.github.io/linktree/) | [Git docs.](https://docs.chaicode.com/git-and-github/) | [<img src="https://user-images.githubusercontent.com/81384987/209952974-0163b04e-ccae-4be5-844a-075ef85c43d2.png" height="15" width="20"/> My YouTube Channel](https://www.youtube.com/c/akashaot) |
+| --- | --- | --- |
+
+| [Exams MCQ](./Exam/1%20github%20foundations%20certification/readme.md) |
+| --- |
 
 ---
 

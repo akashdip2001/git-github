@@ -73,4 +73,35 @@
 ![Screenshot (858)](https://github.com/user-attachments/assets/6d5460dd-f375-43a9-87dc-1654ff842d2b)
 ![Screenshot (859)](https://github.com/user-attachments/assets/43e5d4d2-9408-485a-9802-a7e534bf4c24)
 
+---
 
+![Screenshot (860)](https://github.com/user-attachments/assets/6c4ddf01-d035-4f6b-be40-4326c1ebac98)
+
+1. **When reviewing an MR, which tab would you click on to see what changes you made or add more changes into your merge request?**
+
+   - **Answer**: ✅ **Changes**
+   - **Explanation**: The **Changes** tab displays the file changes made in the merge request, including new changes or modifications. You can view and modify the changes directly in this section.
+
+2. **Select all options that use the proper syntax for naming a `target branch`:**
+
+   - **Answer**: ✅ **a. update-certification-page**  
+   ✅ **c. create-gitlab-certification**  
+   ✅ **d. add-total-rewards-page**
+   - **Explanation**: Proper branch names use lowercase letters and dashes to separate words, making them readable and clear. Branch names should avoid spaces or special characters like periods or capital letters.
+
+3. **Can you change the assignee, milestone, time tracking, and labels after the merge request has already been created?**
+
+   - **Answer**: ✅ **Yes**
+   - **Explanation**: You can update details like assignee, milestone, time tracking, and labels even after a merge request has been created.
+
+4. **What level of access does someone need to have to be able to merge a Merge Request?**
+
+   - **Answer**: ✅ **Developer**
+   - **Explanation**: A **Developer** has permission to merge a merge request, assuming no additional restrictions have been set by the project maintainers.
+
+5. **I won't break anything by just submitting a merge request, because it is a "request to merge" and doesn't make any changes immediately.**
+
+   - **Answer**: ✅ **True**
+   - **Explanation**: A merge request is just a request to merge changes into the main branch. It does not apply any changes until reviewed and approved.
+
+---

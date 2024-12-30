@@ -1,3 +1,38 @@
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="akashdip-mahapatra-f1f2d132-53f4-47fc-b401-7ec7b0e76a62-certificate_page-0001.jpg">](https://www.credly.com/go/6C69ZOKh) 
+
+
+Here’s a summary of what you learned from the challenge:
+
+---
+
+### GitLab Merge Request Workflow Learnings
+
+1. **Reviewing Merge Requests:**
+   - **Changes Tab**: The **Changes** tab is where you can review all the modifications made in the merge request (MR). This tab allows you to view and edit the changes, ensuring the code changes are correct before merging.
+
+2. **Naming Convention for Target Branch:**
+   - **Branch Naming Syntax**: Proper syntax for naming branches involves using lowercase letters and separating words with dashes (e.g., `update-certification-page`, `create-gitlab-certification`). Avoid spaces or special characters to maintain clarity and consistency.
+
+3. **Changing MR Details:**
+   - **Editable Fields**: After a merge request is created, you can still change the assignee, milestone, time tracking, and labels. This flexibility allows you to modify MR metadata without affecting the code itself.
+
+4. **Permissions for Merging MRs:**
+   - **Developer Role**: A **Developer** has the necessary permissions to merge a merge request. This role is crucial for making contributions and ensuring that code changes are successfully integrated into the main codebase.
+
+5. **Impact of Submitting a Merge Request:**
+   - **Merge Request Behavior**: Submitting a merge request doesn’t make any changes immediately. It’s a request to merge, and the changes only take effect once the merge request is reviewed and approved. This ensures a safe review process and avoids unintended code changes.
+
+---
+
+### Key Takeaways:
+- You can review and edit changes within the MR using the **Changes** tab.
+- Proper branch naming is important for readability and organization.
+- You can update the MR details after creation, such as the assignee or milestone.
+- **Developers** have the necessary permissions to merge MRs.
+- Submitting an MR is safe and doesn’t directly affect the code until it’s approved.
+
+---
+
 ![Screenshot (853)](https://github.com/user-attachments/assets/0ea54916-db28-4fd5-a529-b7a8a7daaf3b)
 
 ---

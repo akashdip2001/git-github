@@ -1,4 +1,8 @@
 ![Screenshot (876)](https://github.com/user-attachments/assets/8015d816-9b0b-48ce-b526-e60e31b60184)
+
+<details>	
+ <summary><b>Rules 🔐</b></summary>
+  
 ![1](https://github.com/user-attachments/assets/f1d61bfb-918a-41b7-86ef-2823da5a7bfe)
 ![2](https://github.com/user-attachments/assets/59cb4aca-fa17-490e-baf7-7dff6a636ec5)
 ![3](https://github.com/user-attachments/assets/c250ff73-23fc-44ba-af55-67adc81c5394)
@@ -25,4 +29,9 @@ Answer:
 7. If a test taker grabs their cell phone and takes a picture of the results screen at the end of the test, what will the proctor do?
 Answer: Terminate the test taker and file a report.
 
+🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐
+
 ---
+
+</details>
+

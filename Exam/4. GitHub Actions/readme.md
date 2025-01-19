@@ -4,6 +4,8 @@
 
 Passing the GitHub Actions certification exam validates subject matter expertise with applying continuous integration/continuous delivery (CI/CD) patterns and practices using GitHub Actions in the enterprise.
 
+---
+
 #### Skills :
 
 `Build Pipeline` ,  `Continuous Delivery` ,  `Continuous Integration`

@@ -1,3 +1,19 @@
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-actions.png">](https://www.linkedin.com/posts/akashdip2001_macbook-desktop-github-activity-7286721666125119488-G-B4) 
+
+### GitHub Actions
+
+Passing the GitHub Actions certification exam validates subject matter expertise with applying continuous integration/continuous delivery (CI/CD) patterns and practices using GitHub Actions in the enterprise.
+
+#### Skills :
+
+`Build Pipeline` ,  `Continuous Delivery` ,  `Continuous Integration`
+
+`DevOps` , `GitHub` , `GitHub Actions` , `Release Management`
+
+</br>
+</br>
+</br>
+
 ![Screenshot (876)](https://github.com/user-attachments/assets/8015d816-9b0b-48ce-b526-e60e31b60184)
 
 <details>	

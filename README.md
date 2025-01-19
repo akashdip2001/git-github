@@ -673,4 +673,5 @@ git pull origin main    # Download and synchronize with GitHub
 
 # [GitHub Exam](./Exam/1%20github%20foundations%20certification/readme.md)
 
+[![github exam](https://github.com/user-attachments/assets/61d30632-d31c-4365-b015-38126371dbef)](https://github.com/akashdip2001/git-github/tree/main/Exam)
 

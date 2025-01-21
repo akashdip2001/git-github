@@ -1,5 +1,13 @@
 [<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-foundations.png">](https://www.credly.com/go/6C69ZOKh) 
 
+Passing the GitHub Foundations certification exam validates subject matter expertise by measuring entry-level skills with GitHub basics like repositories, commits, branching, markdowns, and project management.
+
+---
+
+Skills: `Build Pipeline` , `Continuous Delivery` , `Continuous Integration` , `DevOps` , `GitHub` , `GitHub Actions` , `Release Management`
+
+---
+
 Topics 
 
 1. Introduction to Git and GitHub
@@ -11,6 +19,8 @@ Topics
 7. Benefits of the GitHub Community
 
 ---
+
+# ✅ Previous year imp questions for preparation
 
 ## 1. Introduction to Git and GitHub
 

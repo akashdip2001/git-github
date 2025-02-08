@@ -1,4 +1,7 @@
-![Certifiedtocat_full__2_](https://github.com/user-attachments/assets/28d6fffa-283e-49bf-83f4-f02cde8cd931)
+<p float="middle">
+ <img src="https://github.com/user-attachments/assets/3da6513c-f5d7-4967-92bf-92d3f354b710" width="65%" />
+ <img src="https://github.com/user-attachments/assets/28d6fffa-283e-49bf-83f4-f02cde8cd931" width="32%" />
+</p>
 
 </br>
 </br>

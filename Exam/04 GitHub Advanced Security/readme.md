@@ -12,3 +12,8 @@
   [![Screenshot (97)](https://github.com/user-attachments/assets/a24596da-9891-4b23-ba62-54348ab1e646)](https://youtu.be/BNCv2O6vQC8)
   [![Screenshot 2025-02-08 180053](https://github.com/user-attachments/assets/8e4e172d-0cc5-4d10-8f2b-a155c4ddcdca)](https://youtu.be/i740xlsqxEM)
 </details>
+
+</br>
+</br>
+
+[![GitHub exam](https://github.com/user-attachments/assets/9fa02640-b889-486a-9e1d-5cffc23f9729)](https://www.credly.com/badges/b6fecf8a-dc7b-47f5-8275-0df8d829aeed)

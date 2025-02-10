@@ -16,7 +16,13 @@
 <a href="https://www.credly.com/badges/b6fecf8a-dc7b-47f5-8275-0df8d829aeed/public_url"><img src="https://github.com/user-attachments/assets/83d9db6e-b5e8-4b19-9878-b32559d86aca" width="140px" height="140px" /></a>
 <a href="https://www.linkedin.com/posts/akashdip2001_postman-api-certification-activity-7264947968200368128-MHWG"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/Postman%20White%20badge.png" width="130px" height="130px" /></a>
 <a href="https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-introduction-to-cloud-101.png" width="130px" height="130px" /></a>
+
+<details>
+  <summary style="opacity: 0.85;"><b>more Badges 🥇</b></summary><br>
+  <div style="display: flex; align-items: center; gap: 10px;" align="center">
 <a href="https://ti-user-certificates.s3.amazonaws.com/72109ec1-52dd-4663-9df4-754a8a1d0bff/b3a9ea05-0814-405b-976d-3d150fd56bad-akashdip-mahapatra-f1f2d132-53f4-47fc-b401-7ec7b0e76a62-certificate.pdf"><img src="./Exam/03 GitLab 101/GitLab 101.png" width="125px" height="125px" /></a>
+  </div>
+</details>
 </div>
 
 </br>

@@ -11,16 +11,21 @@
 ---
 
 <div style='display:flex; align-items:center; gap: 30px;' align='center'>
-<a href="https://www.credly.com/go/6C69ZOKh"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-foundations.png" width="130px" height="130px" /></a>
-<a href="https://www.linkedin.com/posts/akashdip2001_macbook-desktop-github-activity-7286721666125119488-G-B4"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-actions.png" width="155px" height="155px" /></a>
 <a href="https://www.credly.com/badges/b6fecf8a-dc7b-47f5-8275-0df8d829aeed/public_url"><img src="https://github.com/user-attachments/assets/83d9db6e-b5e8-4b19-9878-b32559d86aca" width="140px" height="140px" /></a>
+<a href="https://www.linkedin.com/posts/akashdip2001_macbook-desktop-github-activity-7286721666125119488-G-B4"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-actions.png" width="155px" height="155px" /></a>
 <a href="https://www.linkedin.com/posts/akashdip2001_postman-api-certification-activity-7264947968200368128-MHWG"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/Postman%20White%20badge.png" width="130px" height="130px" /></a>
 <a href="https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-introduction-to-cloud-101.png" width="130px" height="130px" /></a>
+<a href="https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-cloud-quest-cloud-practitioner.png" width="150px" height="150px" /></a> &nbsp; &nbsp;
 
 <details>
   <summary style="opacity: 0.85;"><b>more Badges 🥇</b></summary><br>
   <div style="display: flex; align-items: center; gap: 10px;" align="center">
 <a href="https://ti-user-certificates.s3.amazonaws.com/72109ec1-52dd-4663-9df4-754a8a1d0bff/b3a9ea05-0814-405b-976d-3d150fd56bad-akashdip-mahapatra-f1f2d132-53f4-47fc-b401-7ec7b0e76a62-certificate.pdf"><img src="./Exam/03 GitLab 101/GitLab 101.png" width="125px" height="125px" /></a>
+<a href="https://www.credly.com/go/6C69ZOKh"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-foundations.png" width="140px" height="140px" /></a>
+<a href="https://www.linkedin.com/posts/akashdip2001_github-copilot-exam-activity-7329820228555538432-6DzF"><img src="https://github.com/akashdip2001/git-github/raw/main/Exam/06%20GitHub%20Copilot/github-copilot.png" width="135px" height="135px" /></a>
+<a href="https://www.credly.com/badges/aaf069f2-c02e-4313-8408-94a80aa5a818/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/lfs101-introduction-to-linux.png" width="150px" height="150px" style="margin-bottom: 17px;" /></a>
+<a href="https://www.credly.com/badges/ebde455d-6170-44bf-bfaf-bf9a9544213c"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/Google%20Cloud%20Computing%20Foundations%20Certificate.png" width="160px" height="160px" /></a>
+
   </div>
 </details>
 </div>

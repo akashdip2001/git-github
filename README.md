@@ -26,6 +26,9 @@
 <a href="https://www.credly.com/badges/aaf069f2-c02e-4313-8408-94a80aa5a818/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/lfs101-introduction-to-linux.png" width="150px" height="150px" style="margin-bottom: 17px;" /></a>
 <a href="https://www.credly.com/badges/ebde455d-6170-44bf-bfaf-bf9a9544213c"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/Google%20Cloud%20Computing%20Foundations%20Certificate.png" width="160px" height="160px" /></a>
 
+<a href="https://www.credly.com/users/akashdip2001"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/akamai-cloud-computing-foundations-certification.png" width="160px" height="160px" /></a>
+<a href="https://www.linkedin.com/posts/akashdip2001_aws-devsecops-cloudpractitioner-activity-7342667659299233792-cnbE"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/AWS%20Certified%20Cloud%20Practitioner.png" width="150px" height="150px" style="margin-bottom: 17px;" /></a>
+
   </div>
 </details>
 </div>

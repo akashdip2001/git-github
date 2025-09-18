@@ -308,7 +308,24 @@ It will ask for **Username** and **Password**:
 ---
 ---
 
-# *Back to Normal*
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+</br>
+</br>
+<div style="display: flex; align-items: center; gap: 10px;" align="center">
+
+ ---
+ 
+# Back to Normal
+
+---
+
+</div>
+
+</br>
+</br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## for Linux
 
@@ -404,94 +421,185 @@ git config user.email "your_email@example.com"
 ✅ After this, your computer will only use **`akashdip2001` GitHub account everywhere**.
 
 ---
+---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## for Windows
 
-If You're on **Windows PowerShell**, so a few Linux-style commands (`ls -al`, `rm`, `nano`) won’t work the same way. Let’s fix this step by step:
+Opened an **Administrator CMD**, here’s a complete, copy-pasteable Windows workflow (commands + what they do) to make this machine use **only your `akashdip2001` GitHub account** with the single SSH key you already have (`id_rsa_akashdip`). Follow the steps in order.
+
+# 1) Quick check: list your `~/.ssh` folder
+
+```cmd
+dir "%USERPROFILE%\.ssh" /A
+```
+
+<img width="100%" alt="Screenshot (815)" src="https://github.com/user-attachments/assets/eb3689ba-50ab-418c-a853-6e7bd4bb3c9f" />
+
+The folder contains `id_rsa_akashdip` and `id_rsa_akashdip.pub`.
 
 ---
 
-## 🔹 1. List files in `.ssh`
+# 2) Ensure Git uses your account (global config)
 
-Instead of `ls -al`, use:
+(You already set these; running again is harmless.)
 
-```powershell
-Get-ChildItem -Force $env:USERPROFILE\.ssh
+```cmd
+git config --global user.name "akashdip2001"
+git config --global user.email "akashdip.mahapatra.21@aot.edu.in"
 ```
-
-That will show you all files in `C:\Users\akash\.ssh`.
 
 ---
 
-## 🔹 2. Delete old keys
+# 3) Create / edit SSH config (so ssh uses this key for github.com)
 
-If you see files like `id_rsa_work` or `id_rsa_personal`, delete them with:
+This puts the right identity in the SSH client config so GitHub always gets your `id_rsa_akashdip` key.
 
-```powershell
-Remove-Item $env:USERPROFILE\.ssh\id_rsa_work*
-Remove-Item $env:USERPROFILE\.ssh\id_rsa_personal*
+```cmd
+notepad "%USERPROFILE%\.ssh\config"
 ```
 
-(Use `*` to also remove `.pub` versions.)
-
----
-
-## 🔹 3. Create/Edit `config`
-
-Since `nano` doesn’t exist on Windows, use **Notepad**:
-
-```powershell
-notepad $env:USERPROFILE\.ssh\config
-```
-
-Add this inside (replace with the actual key you want to keep, e.g. `id_ed25519` or `id_rsa`):
+In Notepad, paste exactly (then Save → Close):
 
 ```
 Host github.com
   HostName github.com
   User git
-  IdentityFile C:/Users/akash/.ssh/id_ed25519
+  IdentityFile C:/Users/akash/.ssh/id_rsa_akashdip
+  IdentitiesOnly yes
 ```
 
-Save and close.
+(Using forward slashes for the path is fine for OpenSSH on Windows.)
+
+<img width="100%" alt="Screenshot (816)" src="https://github.com/user-attachments/assets/a1a8e4d8-168f-4221-b916-a1d76e6f2936" />
 
 ---
 
-## 🔹 4. Start SSH agent & add your key
+# 4) Make sure the ssh-agent service will run and start it (you are admin so these work)
 
-Run:
-
-```powershell
-Start-Service ssh-agent
-ssh-add $env:USERPROFILE\.ssh\id_ed25519
+```cmd
+sc config ssh-agent start=auto
+sc start ssh-agent
 ```
 
-*(replace `id_ed25519` with your real key file name)*
+If `sc start` says it’s already running, that’s fine.
 
 ---
 
-## 🔹 5. Test GitHub connection
+# 5) Add your private key to the agent
 
-```powershell
+```cmd
+ssh-add "%USERPROFILE%\.ssh\id_rsa_akashdip"
+```
+
+* If the key has a passphrase you’ll be prompted for it.
+* To see what keys the agent currently has: `ssh-add -l`
+
+---
+
+# 6) (Optional) Fix file permissions on your private key (keeps key private)
+
+```cmd
+icacls "%USERPROFILE%\.ssh\id_rsa_akashdip" /inheritance:r
+icacls "%USERPROFILE%\.ssh\id_rsa_akashdip" /grant:r "%USERNAME%:R"
+```
+
+This removes inherited ACLs and grants you read access only.
+
+---
+
+# 7) Add the **public** key to your GitHub account
+
+Open the public key, copy all text:
+
+```cmd
+notepad "%USERPROFILE%\.ssh\id_rsa_akashdip.pub"
+```
+
+<img width="100%" alt="Screenshot (818)" src="https://github.com/user-attachments/assets/63acf95e-4678-4d6f-90ca-44c23c35c88f" />
+
+Then in your browser:
+
+<img width="100%" alt="Screenshot (817)" src="https://github.com/user-attachments/assets/6e65e447-32a3-4e07-bf7b-526023d5e138" />
+
+* Go to github.com → **Settings** (click your avatar) → **SSH and GPG keys** → **New SSH key**
+* Paste the key, title it like `akashdip-laptop`, Save.
+
+---
+
+# 8) Test the SSH connection (verbose debug if needed)
+
+First a normal test:
+
+```cmd
 ssh -T git@github.com
 ```
 
-You should see:
+Expected success message:
 
 ```
-Hi akashdip2001! You've successfully authenticated...
+Hi akashdip2001! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+<details>
+  <summary style="opacity: 0.85;"><b>If it still fails ‼️</b></summary><br>
+  
+If it still fails, run verbose to see which key ssh is offering:
+
+```cmd
+ssh -vT git@github.com
+```
+
+Look for lines like:
+
+* `debug1: identity file C:\\Users\\akash\\.ssh\\id_rsa_akashdip type 0`
+* `Offering public key: C:\\Users\\akash\\.ssh\\id_rsa_akashdip`
+* If it ends with `Hi akashdip2001!` you’re good. If it ends with `Permission denied (publickey)`, read troubleshooting below.
+
+---
+
+# 9) Make sure your repo remotes use SSH (not HTTPS)
+
+Inside any repo:
+
+```cmd
+git remote -v
+```
+
+If you see `https://github.com/...` and you prefer SSH, switch to SSH:
+
+```cmd
+git remote set-url origin git@github.com:akashdip2001/REPO_NAME.git
+```
+
+(replace `REPO_NAME.git` with the repo name)
+
+You can make Git automatically rewrite https → ssh for all repos (optional):
+
+```cmd
+git config --global url."git@github.com:".insteadOf "https://github.com/"
 ```
 
 ---
 
-👉 Right now, your config is correct (`user.name` + `user.email` are set globally), but the error:
+# Troubleshooting checklist (if `ssh -T` still fails)
 
-```
-Permission denied (publickey).
-```
+1. **Did you paste the public key into GitHub?** — check SSH keys page.
+2. **Is ssh-agent actually running and did you `ssh-add` your key?**
 
-means GitHub doesn’t recognize the SSH key you’re using.
-You either need to **add the correct key to GitHub** or **generate a new one**.
+   * `ssh-add -l` should list the fingerprint.
+3. **Is your `config` correct?** `notepad "%USERPROFILE%\.ssh\config"` — confirm `IdentityFile` path exactly matches your file name.
+4. **Verbose debug**: `ssh -vT git@github.com` — look for which key is being offered. If it never offers your `id_rsa_akashdip`, `IdentitiesOnly yes` + correct IdentityFile helps force it.
+5. **Remove old GitHub host key if host key changed**:
+
+   ```cmd
+   ssh-keygen -R github.com
+   ```
+
+   Then retry `ssh -T git@github.com` (it will add a new `known_hosts` entry).
+6. **Double-check the GitHub user for the key**: the `Hi <username>!` message will show the account associated with the key.
+
+</details>
 
 ---
-

@@ -305,5 +305,193 @@ It will ask for **Username** and **Password**:
   <img src="https://github.com/user-attachments/assets/e07b63c9-b732-4adc-ac64-9792ee923efb" width="47%" /> 
 </p>
 
+---
+---
 
+# *Back to Normal*
+
+## for Linux
+
+You earlier had **multiple Git accounts** configured on the same machine (with SSH keys and Git config switching, like in the doc you linked), but now you only want to use your **single account (`akashdip2001`)** on this computer.
+
+That means you can **clean up old configs and set everything to one account**. Here’s how you can fix it step by step:
+
+---
+
+### 1. Reset Git global config to your account
+
+```bash
+git config --global user.name "akashdip2001"
+git config --global user.email "your_email@example.com"
+```
+
+👉 Replace `your_email@example.com` with the email linked to your GitHub account.
+
+---
+
+### 2. Clean up SSH keys (if you had multiple before)
+
+* Check what keys you currently have:
+
+```bash
+ls -al ~/.ssh
+```
+
+If you see multiple like `id_rsa`, `id_rsa_work`, `id_rsa_personal`, etc., and you only want one account:
+
+* Keep the key you want to use (say `id_ed25519` or `id_rsa`)
+* Remove old ones:
+
+```bash
+rm ~/.ssh/id_rsa_work ~/.ssh/id_rsa_personal
+```
+
+---
+
+### 3. Reset SSH config
+
+Open:
+
+```bash
+nano ~/.ssh/config
+```
+
+Clean it up so it only has one GitHub setup, e.g.:
+
+```
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+```
+
+Save and exit.
+
+---
+
+### 4. Test your connection
+
+```bash
+ssh -T git@github.com
+```
+
+It should say something like:
+
+```
+Hi akashdip2001! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+---
+
+### 5. Verify per-project Git config (optional)
+
+Sometimes repos override global config. Run inside any repo:
+
+```bash
+git config --get user.name
+git config --get user.email
+```
+
+If they’re different, reset them:
+
+```bash
+git config user.name "akashdip2001"
+git config user.email "your_email@example.com"
+```
+
+---
+
+✅ After this, your computer will only use **`akashdip2001` GitHub account everywhere**.
+
+---
+
+## for Windows
+
+If You're on **Windows PowerShell**, so a few Linux-style commands (`ls -al`, `rm`, `nano`) won’t work the same way. Let’s fix this step by step:
+
+---
+
+## 🔹 1. List files in `.ssh`
+
+Instead of `ls -al`, use:
+
+```powershell
+Get-ChildItem -Force $env:USERPROFILE\.ssh
+```
+
+That will show you all files in `C:\Users\akash\.ssh`.
+
+---
+
+## 🔹 2. Delete old keys
+
+If you see files like `id_rsa_work` or `id_rsa_personal`, delete them with:
+
+```powershell
+Remove-Item $env:USERPROFILE\.ssh\id_rsa_work*
+Remove-Item $env:USERPROFILE\.ssh\id_rsa_personal*
+```
+
+(Use `*` to also remove `.pub` versions.)
+
+---
+
+## 🔹 3. Create/Edit `config`
+
+Since `nano` doesn’t exist on Windows, use **Notepad**:
+
+```powershell
+notepad $env:USERPROFILE\.ssh\config
+```
+
+Add this inside (replace with the actual key you want to keep, e.g. `id_ed25519` or `id_rsa`):
+
+```
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile C:/Users/akash/.ssh/id_ed25519
+```
+
+Save and close.
+
+---
+
+## 🔹 4. Start SSH agent & add your key
+
+Run:
+
+```powershell
+Start-Service ssh-agent
+ssh-add $env:USERPROFILE\.ssh\id_ed25519
+```
+
+*(replace `id_ed25519` with your real key file name)*
+
+---
+
+## 🔹 5. Test GitHub connection
+
+```powershell
+ssh -T git@github.com
+```
+
+You should see:
+
+```
+Hi akashdip2001! You've successfully authenticated...
+```
+
+---
+
+👉 Right now, your config is correct (`user.name` + `user.email` are set globally), but the error:
+
+```
+Permission denied (publickey).
+```
+
+means GitHub doesn’t recognize the SSH key you’re using.
+You either need to **add the correct key to GitHub** or **generate a new one**.
+
+---
 

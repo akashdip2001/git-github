@@ -119,6 +119,10 @@ Looking at your screenshot, you should configure:
 
 8. **Click "Create" button**
 
+</br>
+
+![Screenshot_20-9-2025_1821_github com](https://github.com/user-attachments/assets/f5685ff6-a151-43a3-91da-ab66b1b021b2)
+
 ---
 
 ## 🚨 **What Happens After Enabling?**
@@ -222,4 +226,5 @@ git branch -d feature/my-new-feature
 **Created:** September 20, 2025  
 **For Repository:** ParkerHub  
 **User Level:** Beginner  
+
 **Purpose:** Safe branch protection setup
